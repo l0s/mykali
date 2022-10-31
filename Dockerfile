@@ -18,10 +18,11 @@ RUN apt-get -y update \
     kali-tools-passwords \
     #kali-tools-reverse-engineering \
     kali-tools-exploitation \
-    kali-tools-sniffing-spoofing 
+    kali-tools-sniffing-spoofing \
     #kali-tools-post-exploitation \
     #kali-tools-forensics \
     #kali-tools-reporting
+    gobuster
 
 RUN apt-get -y update \
   && apt-get install -y --no-install-recommends \

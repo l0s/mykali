@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t mykali --secret id=password,src=password.txt .
+docker build --no-cache -t mykali --secret id=password,src=password.txt .
